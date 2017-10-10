@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  acrgeosample:
+    image: ${DOCKER_REGISTRY}acrgeosample
+    build:
+      context: .
+      dockerfile: AcrGeoSample/Dockerfile
